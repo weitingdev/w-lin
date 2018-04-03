@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    <!-- Wei-Ting Lin - weiting.dev@gmail.com -->
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Wei-Ting Lin</title>
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
         <!--[if lt IE 9]>
@@ -11,11 +11,11 @@
         <![endif]-->
 
         <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
         <!-- CSS Styling -->
         <link href="./css/normalize.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Quicksand" rel="stylesheet">
@@ -24,56 +24,58 @@
     </head>
 
     <body>
-        <!-- Navigation & Hero Image -->
+        <!-- Navigation -->
         <header>
-            <nav>
-                <ul>
-                    <li><a href="./about.html" target="_blank">About</a></li>
-                    <li><a href="./porfolio.html" target="_blank">Portfolio</a></li>
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="#">Ting</a>
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/porfolio.html">Portfolio</a></li>
                     <li><a href="https://blog.w-lin.com/" target="_blank">Blog</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                    <a href="./index.html"><img class="homepage" src="./img/leaf.png" title="CSS Layout" alt="Homepage Icon"/></a>
+                    <li><a href="/contact.html">Contact</a></li>
                 </ul>
-                
+              </div>
             </nav>
         </header>
         
         <!-- Main Content -->
         <main>
-            <article>
-                <h1>Hi!</h1>
+            <h1>Hi!</h1>
 
-                <h2>Current Projects</h2>
-                <div class="gallery-grid">
-                    <figure>
+            <h2>Current Projects</h2>
+            <div class="d-flex flex-row">
+                <div class="p-2">
+                    <a href="https://w-lin.com/" target="_blank">
                         <img class="projects" src="img/charchew-screen1.png" title="Char & Chew" alt="Char & Chew"/>
-                        <figcaption>Char & Chew</figcaption>
-                    </figure>
-                    
-                    <figure>
-                        <img class="projects" src="img/portfolio-screen1.png" title="Portfolio" alt="Portfolio"/>
-                        <figcaption>Portfolio</figcaption>
-                    </figure>
+                    </a>
                 </div>
-            </article>
+                <div class="p-2">
+                    <a href="https://weitingdev.github.io/w-lin/">
+                        <img class="projects" src="img/portfolio-screen1.png" title="Portfolio" alt="Portfolio"/>
+                    </a>
+                </div>
+            </div>
         </main>
 
         <!-- Footer -->
         <footer>
-            <div class="column">
-                <h4>STAY CONNECTED</h4>
-                <p>
-                    <a href="https://github.com/weitingdev" target="_blank" class="fa fa-github"></a>
-                    <a href="https://www.linkedin.com/in/wlin2/" target="_blank" class="fa fa-linkedin"></a>
-                    <a href="https://blog.w-lin.com/" target="_blank" class="fa fa-pencil"></a>
-                    <a href="https://www.instagram.com/pictureworkmemory/" target="_blank" class="fa fa-instagram"></a>
-                </p>
-
-                <p>
-                    <a href="http://validator.w3.org/check?uri=referer" target="_blank">Validate Document</a>
-                </p>
-
-            </div>
+            <h3>SAY HELLO!</h3>
+            <p>Interested in working with me?</br>
+                Feel free to <a href="/contact.html"/>drop me a message</a> anytime!</p>
+            <p>
+                <a href="https://github.com/weitingdev" target="_blank" class="fa fa-github fa-2x"></a>
+                <a href="https://www.linkedin.com/in/wlin2/" target="_blank" class="fa fa-linkedin fa-2x"></a>
+                <a href="https://blog.w-lin.com/" target="_blank" class="fa fa-pencil fa-2x"></a>
+                <a href="https://www.instagram.com/pictureworkmemory/" target="_blank" class="fa fa-instagram fa-2x"></a>
+            </p>
+            <p id="copyright">
+                &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Wei-Ting Lin 
+            </p>
+            <a id="validator" href="http://validator.w3.org/check?uri=referer" target="_blank">Validate</a>
         </footer>
 
     </body>
