@@ -1,0 +1,92 @@
+/* Wei-Ting Lin - weiting.dev@gmail.com */
+
+html {
+    position: relative;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #563A34;
+    line-height: 2;
+    letter-spacing: 0.10em;
+}
+
+h1 {
+	font-family: 'Press Start 2P', sans-serif;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+/* Links */
+a {
+    color: #659EB4;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #659EB4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2C333C;
+    text-decoration: none;
+}
+
+a:active {
+    color: #659EB4;
+    text-decoration: none;
+}
+
+/* Images */
+.projects {
+	max-width: 25%;
+}
+
+
+/* Social Media */
+li {
+	list-style-type: none;
+}
+
+.fa-github,
+.fa-linkedin,
+.fa-pencil,
+.fa-instagram {
+    color: #FFAEC9;
+    text-decoration: none;
+}
+
+.fa-github:visited,
+.fa-linkedin:visited,
+.fa-pencil:visited,
+.fa-instagram:visited {
+    color: #FFAEC9;
+    text-decoration: none;
+}
+
+.fa-github:hover,
+.fa-linkedin:hover,
+.fa-pencil:hover,
+.fa-instagram:hover {
+    color: #2C333C;
+    text-decoration: none;
+}
+
+.fa-github:active,
+.fa-linkedin:active,
+.fa-pencil:active,
+.fa-instagram:active {
+    color: #FFAEC9;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #eee;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
