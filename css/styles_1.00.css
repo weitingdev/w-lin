@@ -5,7 +5,7 @@ body {
     color: #563A34;
     line-height: 2;
     letter-spacing: 0.10em;
-    padding: 100px 70px 0 70px;
+    padding: 70px 70px 0 70px;
     text-align: center;
 }
 
@@ -17,6 +17,10 @@ h1 {
 h2 {
 	font-size: 1.25em;
 	font-weight: bold;
+}
+
+.transparent {
+	opacity: 0.98;
 }
 
 
@@ -37,6 +41,21 @@ a:hover {
 	padding: 0.25em 1em;
 }
 
+#topBtn {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	right: 15px;
+	z-index: 99;
+	border: none;
+	cursor: pointer;
+	background-color: #eee;
+	width: 50px;
+	height: 45px;
+	border-radius: 10px 10px 0 0;
+	font-size: 1.5em;
+}
+
 #validator {
 	font-size: 0.5em;
 	float: right;
@@ -44,6 +63,10 @@ a:hover {
 
 
 /* Images */
+.hero {
+	max-width: 100%;
+}
+
 .projects {
 	max-width: 100%;
 	padding: 1em 0;
@@ -73,6 +96,6 @@ footer div {
     color: #2C333C;
 }
 
-#copyright {
+.copyright {
 	font-size: 0.75em;
 }
