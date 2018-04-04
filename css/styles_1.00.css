@@ -5,43 +5,31 @@ body {
     color: #563A34;
     line-height: 2;
     letter-spacing: 0.10em;
-    padding-top: 70px;
-    padding-right: 70px;
-    padding-left: 70px;
+    padding: 100px 70px 0 70px;
     text-align: center;
 }
 
 h1 {
 	font-family: 'Press Start 2P', sans-serif;
+	font-size: 1.5em;
 }
 
 h2 {
+	font-size: 1.25em;
 	font-weight: bold;
-}
-
-#copyright {
-	font-size: 0.75em;
 }
 
 
 /* Links */
-a {
-    color: #659EB4;
-    text-decoration: none;
-}
-
-a:visited {
+a, 
+a:visited, 
+a:active {
     color: #659EB4;
     text-decoration: none;
 }
 
 a:hover {
     color: #2C333C;
-    text-decoration: none;
-}
-
-a:active {
-    color: #659EB4;
     text-decoration: none;
 }
 
@@ -66,7 +54,6 @@ a:active {
 footer {
 	border-top: solid 1px #ddd;
     padding-top: 2em;
-    overflow: hidden;
 }
 
 footer div {
@@ -74,20 +61,18 @@ footer div {
     justify-content: center;
 }
 
-.fa {
+.fa, 
+.fa:visited, 
+ .fa:active {
 	color: #FFAEC9;
     text-decoration: none;
     padding: 0.5em 0.25em;
-}
-
-.fa:visited {
-    color: #FFAEC9;
 }
 
 .fa:hover {
     color: #2C333C;
 }
 
-.fa:active {
-    color: #FFAEC9;
+#copyright {
+	font-size: 0.75em;
 }
