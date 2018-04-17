@@ -12,11 +12,18 @@ body {
 h1 {
 	font-family: 'Press Start 2P', sans-serif;
 	font-size: 1.5em;
+	padding: 20px 0 10px;
 }
 
 h2 {
 	font-size: 1.25em;
 	font-weight: bold;
+	padding: 0 0 20px;
+}
+
+h3 {
+	font-weight: bold;
+	padding: 0 0 20px;
 }
 
 .transparent {
@@ -67,20 +74,16 @@ a:hover {
 	max-width: 100%;
 }
 
-.thumb {
-	max-width: 100%;
-	padding: 1em 0;
-}
-
-.projects figure img {
+.projects img {
 	opacity: 1;
 	-webkit-transition: 0.3s ease-in-out;
 	transition: 0.3s ease-in-out;
 }
 
-.projects figure:hover img {
+.projects img:hover {
 	opacity: 0.5;
 }
+
 
 /* Footer */
 footer {
