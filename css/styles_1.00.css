@@ -67,11 +67,20 @@ a:hover {
 	max-width: 100%;
 }
 
-.projects {
+.thumb {
 	max-width: 100%;
 	padding: 1em 0;
 }
 
+.projects figure img {
+	opacity: 1;
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+.projects figure:hover img {
+	opacity: 0.5;
+}
 
 /* Footer */
 footer {
