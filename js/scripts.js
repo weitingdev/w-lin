@@ -15,9 +15,12 @@ $(document).ready(function() {
         return false;
     });
 
+    // Clicking on Portfolio leads to section
+    var heightlol = $("#portfolio").offset().top - $('header > nav').outerHeight();
+
     $(".portfolio").click(function() {
         $('html,body').animate({
-            scrollTop: $(".about").offset().top},
+            scrollTop: heightlol},
             'slow');
     });
 
