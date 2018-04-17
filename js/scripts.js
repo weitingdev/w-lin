@@ -15,4 +15,10 @@ $(document).ready(function() {
         return false;
     });
 
+    $(".portfolio").click(function() {
+        $('html,body').animate({
+            scrollTop: $(".about").offset().top},
+            'slow');
+    });
+
 });
