@@ -16,11 +16,11 @@ $(document).ready(function() {
     });
 
     // Clicking on Portfolio leads to section
-    var heightlol = $("#portfolio").offset().top - $('header > nav').outerHeight();
+    var heightFromTop = $("#portfolio").offset().top - $('header > nav').outerHeight();
 
     $(".portfolio").click(function() {
         $('html,body').animate({
-            scrollTop: heightlol},
+            scrollTop: heightFromTop},
             'slow');
     });
 
