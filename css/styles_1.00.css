@@ -5,8 +5,22 @@ body {
     color: #563A34;
     line-height: 2;
     letter-spacing: 0.10em;
-    padding: 70px 70px 0 70px;
+    padding: 70px 0px 0px;
     text-align: center;
+}
+
+section {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 75px;
+}
+
+#portfolio {
+	width: 99%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 75px;
 }
 
 h1 {
@@ -78,6 +92,7 @@ a:hover {
 	opacity: 1;
 	-webkit-transition: 0.3s ease-in-out;
 	transition: 0.3s ease-in-out;
+	border: none;
 }
 
 .projects img:hover {
