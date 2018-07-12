@@ -10,7 +10,7 @@ body {
 }
 
 section {
-	width: 60%;
+	width: 85%;
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 75px;
@@ -42,6 +42,50 @@ h3 {
 
 .transparent {
 	opacity: 0.98;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+.lato {
+	font-family: 'Lato', sans-serif;
+}
+
+.roboto {
+	font-family: 'Roboto', sans-serif;
+}
+
+.berkshire {
+	font-family: 'Berkshire Swash', sans-serif;
+}
+
+
+/* Colour Palettes */
+.color-block {
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+.grey {
+	background: #48525E;
+}
+
+.darkblue {
+	background: #2B6491;
+}
+
+.blue {
+	background: #06B7C7;
+}
+
+.orange {
+	background: #F8373A;
+}
+
+.yellow {
+	background: #F2C301;
 }
 
 
