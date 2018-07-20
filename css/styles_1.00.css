@@ -1,12 +1,13 @@
 /* Wei-Ting Lin - weiting.dev@gmail.com */
 
-body {
+body, html {
+	height: 100%;
     font-family: 'Quicksand', sans-serif;
     color: #563A34;
     line-height: 2;
     letter-spacing: 0.10em;
-    padding: 70px 0px 0px;
     text-align: center;
+    overflow-x: hidden;
 }
 
 section {
@@ -129,7 +130,12 @@ a:hover {
 
 /* Images */
 .hero {
-	max-width: 100%;
+    background-image: url("../img/fairy-tale-1180922.png");
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .projects img {
@@ -169,4 +175,15 @@ footer div {
 
 .copyright {
 	font-size: 0.75em;
+}
+
+
+/* Media Queries */
+@media only screen and (max-device-width: 1024px) {
+    .hero {
+        background-attachment: scroll;
+        background-position: left;
+        margin-left: -1em;
+        min-height: 50vh;
+    }
 }
