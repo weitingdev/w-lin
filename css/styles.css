@@ -1,0 +1,56 @@
+/* Wei-Ting Lin - weiting.dev@gmail.com */
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+body, html {
+  font: 100% "Quicksand", sans-serif;
+  color: #563A34;
+  height: 100%;
+  line-height: 2;
+  letter-spacing: 0.10em; }
+
+nav {
+  background-color: #F2F3F4;
+  opacity: 0.90; }
+
+a {
+  color: #659EB4; }
+  a:visited {
+    color: #659EB4; }
+  a:hover {
+    color: #2C333C; }
+  a:active {
+    color: #659EB4; }
+
+.hero {
+  background-image: url("../img/fairy-tale-1180922.png");
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.fa {
+  color: #FFAEC9; }
+  .fa:visited {
+    color: #FFAEC9; }
+  .fa:hover {
+    color: #2C333C; }
+  .fa:active {
+    color: #FFAEC9; }
+
+.fa {
+  text-decoration: none;
+  padding: 0.5em 0.25em; }
+
+.copyright {
+  font-size: 0.75em; }
+
+#topBtn {
+  display: none;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: none;
+  border-radius: 10px 10px 0 0; }
+
+/*# sourceMappingURL=styles.css.map */

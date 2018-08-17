@@ -1,0 +1,107 @@
+/* Wei-Ting Lin - weiting.dev@gmail.com */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+$bg-color: #563A34;
+$white: #fff;
+$base-font: 'Quicksand', sans-serif;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin tablet {
+	@media (min-width: #{$tablet-width}) and (max-width: #{desktop-width - 1px}) {
+		.hero {
+	        background-attachment: scroll;
+	        background-position: left;
+	        min-height: 50vh;
+    	}
+	}
+}
+
+@mixin desktop {
+	@media (min-width: #{desktop-width}) {
+		@content;
+	}
+}
+
+@mixin links($link, $visited, $hover, $active) {
+	a {
+		color: $link;
+		&:visited {
+			color: $visited;
+		}
+		&:hover {
+			color: $hover;
+		}
+		&:active {
+			color: $active;
+		}
+	}
+}
+
+@mixin sm-links($link, $visited, $hover, $active) {
+	.fa {
+		color: $link;
+		&:visited {
+			color: $visited;
+		}
+		&:hover {
+			color: $hover;
+		}
+		&:active {
+			color: $active;
+		}
+	}
+}
+
+// @mixin transform($transforms, $time, $transition) {
+// 	transform: $transforms, $time, $transition;
+// 	-webkit-transform: $transforms, $time, $transition;
+// 	-moz-transform: $transforms, $time, $transition;
+// 	-o-transform: $transforms, $time, $transition;
+// 	-ms-transform: $transforms, $time, $transition;
+// }
+
+body, html {
+	font: 100% $base-font;
+	color: $bg-color;
+	height: 100%;
+	line-height: 2;
+    letter-spacing: 0.10em;
+}
+
+nav{
+	background-color: #F2F3F4;
+	opacity: 0.90;
+}
+
+@include links(#659EB4, #659EB4, #2C333C, #659EB4);
+
+.hero {
+    background-image: url("../img/fairy-tale-1180922.png");
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@include sm-links(#FFAEC9, #FFAEC9, #2C333C, #FFAEC9);
+.fa {
+	text-decoration: none;
+    padding: 0.5em 0.25em;
+}
+
+.copyright {
+	font-size: 0.75em;
+}
+
+#topBtn {
+	display: none;
+	color: $white;
+	position: fixed;
+	bottom: 0;
+	right: 15px;
+	border: none;
+	border-radius: 10px 10px 0 0;
+}
