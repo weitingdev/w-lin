@@ -3,206 +3,256 @@
     <!-- Wei-Ting Lin - weiting.dev@gmail.com -->
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Wei-Ting Lin - COZY</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Wei-Ting Lin - Web Developer</title>
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
         <!--[if lt IE 9]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-
-        <!-- Bootstrap -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/styles.css"  media="screen,projection"/>
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="./js/scripts.js" defer></script>
-        
-        <!-- CSS Styling -->
-        <link href="./css/normalize.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Quicksand|Berkshire+Swash|Lato|Roboto" rel="stylesheet">
-        <link href="./css/styles_1.00.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
         <!-- Navigation -->
-        <header>
-            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light transparent">
-              <a class="navbar-brand" href="./index.html">Ting</a>
-              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-                <ul class="navbar-nav">
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./index.html">Portfolio</a></li>
-                    <li><a href="https://w-lin.com/" target="_blank">Blog</a></li>
-                    <li><a href="mailto:weiting.dev@gmail.com">Contact</a></li>
-                </ul>
-              </div>
+        <div class="navbar-fixed grey lighten-5">
+            <nav class="z-depth-0">
+                <div class="nav-wrapper container">
+                    <a href="#" class="brand-logo black-text">Ting</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#introduction" class="black-text">About</a></li>
+                        <li><a href="#services" class="black-text">Services</a></li>
+                        <li><a href="#portfolio" class="black-text">Portfolio</a></li>
+                        <li><a href="#contactme" class="black-text">Contact</a></li>
+                    </ul>
+                </div>
             </nav>
-        </header>
+        </div>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#introduction">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contactme">Contact</a></li>
+        </ul>
 
-        <div class="hero"></div>
-        
+        <div id="cozyhero" class="hide-on-small-only"></div>
+
         <!-- Main Content -->
-        <main>
-            <section>
+        <main class="container">
+            <section id="project-intro" class="section scrollspy center-align">
                 <h1>COZY</h1>
-                <h2>Introduction</h2>
+                <h4>An Interactive HVAC App</h4>
+                <div class="chip">
+                    <img src="projects/cozy/img/weiting-lin-icon.jpg" alt="Contact Person">Wei-Ting Lin
+                </div>
+                <div class="chip"> 
+                    <img src="projects/cozy/img/soheil-hm-icon.jpg" alt="Contact Person">Soheil Hm 
+                </div>
+                <div class="chip">
+                    <img src="projects/cozy/img/quinn-radford-icon.jpg" alt="Contact Person">Quinn Radford
+                </div><br/>
+                <div class="chip">
+                    UX/UI Design<i class="close material-icons">close</i>
+                </div>
+                <div class="chip">
+                    Marvel App<i class="close material-icons">close</i>
+                </div>
+                <div class="chip">
+                    Mock Flow<i class="close material-icons">close</i>
+                </div>
+                <div class="chip">
+                    Excel<i class="close material-icons">close</i>
+                </div>
+                <div class="chip">
+                    PowerPoint<i class="close material-icons">close</i>
+                </div>
                 <p>COZY​ ​​is​ ​a​ ​mobile​ ​app​lication ​for​ ​office​ ​workers​ ​designed​ ​to​ ​eliminate​ ​employee discomfort and​ ​increase​ ​work​ ​productivity​. Employees are able to adjust temperatures, lighting, and humidity levels to fit their needs. Building managers will be able to analyze this data, and the building's HVAC system will also process these data points to anticipate future trends and issues for maximum efficiency.</p>
+                <p>This group project involves building a business model, conducting user interviews and surveys, designing an empathy map, journey map, and site map, and making user flows, user stories, and personas of our users. After brainstorming a design direction, collaboration on <mark><a href="https://marvelapp.com/" target="_blank">Marvel App</a></mark> was done both online and in-person. Multiple stages of wireframing were drafted based on user feedback and group evaluations. To conclude, a final presentation was done to appeal to potential investors.</p><br/>
 
-                <p>This group project involves building a business model, conducting user interviews and surveys, designing an empathy map, journey map, and site map, and making user flows, user stories, and personas of our users. After brainstorming a design direction, collaboration on <a href="https://marvelapp.com/" target="_blank">Marvel App</a> was done both online and in-person. Multiple stages of wireframing were drafted based on user feedback and group evaluations. To conclude, a final presentation was done to appeal to potential investors.</p><br/>
-
-                <a href="./projects/cozy/cozy_project.pdf">
-                	<button type="button" class="btn btn-info">View Project Proposal</button>
-                </a> 
-                <a href="./projects/cozy/cozy_present.pptx">
-                	<button type="button" class="btn btn-info">View Final Presentation</button>
-                </a> 
-                <a href="https://marvelapp.com/52861bd/screen/33749629" target="_blank">
-                	<button type="button" class="btn btn-info">Live View on Marvel App</button>
-                </a>
+                <a href="./projects/cozy/cozy_project.pdf" class="waves-effect waves-light btn" target="_blank">View Project Proposal</a>
+                <a href="./projects/cozy/cozy_present.pptx" class="waves-effect waves-light btn" target="_blank">View Final Presentation</a>
+                <a href="https://marvelapp.com/52861bd/screen/33749629" class="waves-effect waves-light btn" target="_blank">View Live on Marvel App</a>
             </section>
 
-            <section>
-                <h2>Iconography &amp; Logo</h2>
+            <br/>
+            <div class="divider"></div>
+
+            <section id="project-design" class="section scrollspy center-align">
+                <h4>Design Direction</h4>
                 <img src="./projects/cozy/img/logo.png"/>
-                <ul>
-                	<li>Flat design focused</li>
-                	<li>Easy to read, simple to use UI</li>
-                	<li>Business-friendly colour palette</li>
-                </ul>
+                <br/>
+                <span class="berkshire">Berkshire Swash</span> for Screen Titles
+                <br/>
+                <span class="lato">Lato</span> for General Text
+                <br/>
+                <span class="roboto">Roboto</span> for Button Text
+                <br/><br/>
+                <span class="palette1 btn tooltipped" data-position="bottom" data-tooltip="#48525E"></span>
+                <span class="palette2 btn tooltipped" data-position="bottom" data-tooltip="#2B6491"></span>
+                <span class="palette3 btn tooltipped" data-position="bottom" data-tooltip="#06B7C7"></span>
+                <span class="palette4 btn tooltipped" data-position="bottom" data-tooltip="#F8373A"></span>
+                <span class="palette5 btn tooltipped" data-position="bottom" data-tooltip="#F2C301"></span>
             </section>
 
-            <section>
-                <h2>Typography</h2>
-                <p><span class="berkshire">Berkshire Swash</span> - Screen titles</p>
-                <p><span class="lato">Lato</span> - General text</p>
-                <p><span class="roboto">Roboto</span> - Button text</p>
+            <br/>
+            <div class="divider"></div>
+
+            <section id="project-wireframing" class="section scrollspy center-align">
+                <h2>Screen Flow</h2>
+                <img src="projects/cozy/img/screenflow.png">
             </section>
 
-            <section>
-                <h2>Colour Palette</h2>
-                <div class="row d-flex justify-content-center">
-	            	<div class="col-md-2 col-sm-10">
-			            <div class="color-block grey">
-			                <span>#48525E</span>
-			            </div>
-			        </div>
-			        <div class="col-md-2 col-sm-10">
-			            <div class="color-block darkblue">
-			                <span>#2B6491</span>
-			            </div>
-			        </div>
-			        <div class="col-md-2 col-sm-10">
-			            <div class="color-block blue">            
-			                <span>#06B7C7</span>
-			            </div>
-			        </div>
-			        <div class="col-md-2 col-sm-10">
-			            <div class="color-block orange">            
-			                <span>#F8373A</span>
-			            </div>
-			        </div>
-			        <div class="col-md-2 col-sm-10">
-			            <div class="color-block yellow">            
-			                <span>#F2C301</span>
-			            </div>
-			        </div>
-			    </div>
-            </section>
+            <br/>
+            <div class="divider"></div>
 
-            <section>
+            <section id="project-wireframing" class="section scrollspy center-align">
                 <h2>Wireframing</h2>
-                <div class="row text-center text-lg-left">
-                    <div class="projects col-lg-3 col-xs-12">
-                        <img class="img-fluid img-thumbnail" src="projects/cozy/img/wireframe-001.png"/>
+                <div class="row">
+                    <div class="col s12 m12 l6">
+                        <div class="card z-depth-0">
+                            <div class="card-image">
+                                    <img src="projects/cozy/img/wireframe-v1-1.png">
+                                </a>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="projects col-lg-3 col-xs-12">
-                        <img class="img-fluid img-thumbnail"src="projects/cozy/img/wireframe-002.png"/>
+                    <div class="col s12 m12 l6">
+                        <div class="card z-depth-0">
+                            <div class="card-image">
+                                <a href="#">
+                                    <img src="projects/cozy/img/wireframe-v2-1.png">
+                                </a>
+                            </div>
+                        </div>
                     </div>
+                </div>
 
-                    <div class="projects col-lg-3 col-xs-12">
-                        <img class="img-fluid img-thumbnail"src="projects/cozy/img/wireframe-003.png"/>
+
+                <div class="row">
+                    <div class="col s12 m12 l6">
+                        <div class="card z-depth-0">
+                            <div class="card-image">
+                                    <img src="projects/cozy/img/wireframe-v1-2.png">
+                                </a>
+                            </div>
+                        </div>
                     </div>
+                    <div class="col s12 m12 l6">
+                        <div class="card z-depth-0">
+                            <div class="card-image">
+                                <a href="#">
+                                    <img src="projects/cozy/img/wireframe-v2-2.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                    <div class="projects col-lg-3 col-xs-12">
-                        <img class="img-fluid img-thumbnail"src="projects/cozy/img/wireframe-004.png"/>
+
+                <div class="row">
+                    <div class="col s12 m12 l6">
+                        <div class="card z-depth-0">
+                            <div class="card-image">
+                                    <img src="projects/cozy/img/wireframe-v1-3.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l6">
+                        <div class="card z-depth-0">
+                            <div class="card-image">
+                                <a href="#">
+                                    <img src="projects/cozy/img/wireframe-v2-3.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col s12 m12 l6">
+                        <div class="card z-depth-0">
+                            <div class="card-image">
+                                    <img src="projects/cozy/img/wireframe-v1-4.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l6">
+                        <div class="card z-depth-0">
+                            <div class="card-image">
+                                <a href="#">
+                                    <img src="projects/cozy/img/wireframe-v2-4.png">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <section>
+            <br/>
+            <div class="divider"></div>
+
+            <section id="project-prototype" class="section scrollspy center-align">
                 <h2>Final Prototyping</h2>
-                <div class="row text-center text-lg-left">
-                    <div class="projects col-lg-3 col-xs-12">
-                        <img class="img-fluid img-thumbnail" src="projects/cozy/img/screen-001.png"/>
+                <div class="row">
+                    <div class="col s12 m12 l6">
+                        <div class="card z-depth-0">
+                            <div class="card-image">
+                                    <img src="projects/cozy/img/screen-001.png">
+                                </a>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="projects col-lg-3 col-xs-12">
-                        <img class="img-fluid img-thumbnail"src="projects/cozy/img/screen-002.png"/>
-                    </div>
-
-                    <div class="projects col-lg-3 col-xs-12">
-                        <img class="img-fluid img-thumbnail"src="projects/cozy/img/screen-003.png"/>
-                    </div>
-
-                    <div class="projects col-lg-3 col-xs-12">
-                        <img class="img-fluid img-thumbnail"src="projects/cozy/img/screen-004.png"/>
-                    </div>
-
-                    <div class="projects col-lg-3 col-xs-12">
-                        <img class="img-fluid img-thumbnail"src="projects/cozy/img/screen-005.png"/>
-                    </div>
-
-                    <div class="projects col-lg-3 col-xs-12">
-                        <img class="img-fluid img-thumbnail"src="projects/cozy/img/screen-006.png"/>
-                    </div>
-
-                    <div class="projects col-lg-3 col-xs-12">
-                        <img class="img-fluid img-thumbnail"src="projects/cozy/img/screen-007.png"/>
-                    </div>
-
-                    <div class="projects col-lg-3 col-xs-12">
-                        <img class="img-fluid img-thumbnail"src="projects/cozy/img/screen-008.png"/>
-                    </div>
-
-                    <div class="projects col-lg-3 col-xs-12">
-                        <img class="img-fluid img-thumbnail"src="projects/cozy/img/screen-009.png"/>
-                    </div>
-
-                    <div class="projects col-lg-3 col-xs-12">
-                        <img class="img-fluid img-thumbnail"src="projects/cozy/img/screen-010.png"/>
-                    </div>
-
-                    <div class="projects col-lg-3 col-xs-12">
-                        <img class="img-fluid img-thumbnail"src="projects/cozy/img/screen-011.png"/>
-                    </div>
-
-                    <div class="projects col-lg-3 col-xs-12">
-                        <img class="img-fluid img-thumbnail"src="projects/cozy/img/screen-012.png"/>
+                    <div class="col s12 m12 l6">
+                        <div class="card z-depth-0">
+                            <div class="card-image">
+                                <a href="#">
+                                    <img src="projects/cozy/img/screen-002.png">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </section>
 
-            <section>
-            	<a href="./index.html">
-            		<button type="button" class="btn btn-info">See more projects</button>
-            	</a>
-            </section>
 
-            <a href="#" id="topBtn" title="Back to top">
-            	<i class="fa fa-arrow-up"></i>
-            </a>
+                <div class="row">
+                    <div class="col s12 m12 l6">
+                        <div class="card z-depth-0">
+                            <div class="card-image">
+                                    <img src="projects/cozy/img/screen-003.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l6">
+                        <div class="card z-depth-0">
+                            <div class="card-image">
+                                <a href="#">
+                                    <img src="projects/cozy/img/screen-004.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <br/><br/>
+            <mark><a href="./index.html#portfolio">See more projects</a></mark>
+            <br/><br/><br/>
+            <div class="divider"></div>
         </main>
 
         <!-- Footer -->
-        <footer>
-            <h4>SAY HELLO!</h4>
-            <p>Interested in working with me?</br>
-                Feel free to <a href="mailto:weiting.dev@gmail.com">drop me a line</a> anytime!<br/></p>
+        <footer id="contactme" class="section scrollspy center-align">
+            <h4>Say Hello!</h4>
+            <p>Interested in working with me?
+            <br/>Feel free to <mark><a href="mailto:weiting.dev@gmail.com">drop me a line</a></mark> anytime!</p>
             <p>
                 <a href="https://github.com/weitingdev" target="_blank" class="fa fa-github fa-2x"></a>
                 <a href="https://www.linkedin.com/in/wlin2/" target="_blank" class="fa fa-linkedin fa-2x"></a>
@@ -211,9 +261,16 @@
             </p>
             <p class="copyright">
                 &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Wei-Ting Lin <span class="fa fa-heart"></span>
-            </p>
-            <!-- <a id="validator" href="http://validator.w3.org/check?uri=referer" target="_blank">Validate</a> -->
-        </footer>
 
+                <!-- Only for validating code purposes. -->
+                <a id="validator" href="http://validator.w3.org/check?uri=referer" target="_blank">Validate</a>
+            </p>
+
+            <a href="#" id="topBtn" title="Back to Top" class="btn right">
+                <i class="material-icons">keyboard_arrow_up</i>
+            </a>
+        </footer>
+        <script type="text/javascript" src="js/bin/materialize.min.js"></script>
+        <script src="./js/defer.js" defer></script>
     </body>
 </html>

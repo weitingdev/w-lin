@@ -1,0 +1,62 @@
+body, html {
+	font: 100% $base-font;
+	color: $bg-color;
+	height: 100%;
+	line-height: 2;
+    letter-spacing: 0.10em;
+}
+
+// transform: translate(-51%, -50%);
+
+nav {
+	background-color: #F2F3F4;
+	opacity: 0.90;
+
+	a.active {
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+}
+
+@include links(#2899C0, #2899C0, #2C333C, #2899C0);
+
+@include sm-links(#FFAEC9, #FFAEC9, #2C333C, #FFAEC9);
+
+.fa {
+	text-decoration: none;
+    padding: 0.5em 0.25em;
+}
+
+.hero {
+    background-image: url("../img/fairy-tale-1180922.png");
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.copyright {
+	font-size: 0.75em;
+}
+
+.btn {
+	color: #659EB4;
+	background-color: $white;
+}
+
+#topBtn {
+	display: none;
+	background-color: #2899C0;
+	color: $white;
+	position: fixed;
+	bottom: 0;
+	right: 15px;
+	border: none;
+	border-radius: 10px 10px 0 0;
+}
+
+mark {
+	display: inline-block;
+	line-height: 0em;
+	padding-bottom: 0.5em;
+}

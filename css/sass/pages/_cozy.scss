@@ -1,0 +1,69 @@
+div#cozyhero {
+    background-image: url("../projects/cozy/img/hero.jpg");
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#project-wireframing {
+	.card .card-image img {
+		width: auto;
+	}
+}
+
+section#project-design {
+	.berkshire {
+		font-family: 'Berkshire Swash', cursive;
+		font-size: 1.5em;
+	}
+	.lato {
+		font-family: 'Lato', sans-serif;
+		font-size: 1.35em;
+	}
+	.roboto {
+		font-family: 'Roboto', sans-serif;
+		text-transform: uppercase;
+		font-size: 1.25em;
+	}
+	.palette1 {
+		height: $color-size;
+		width: $color-size;
+		background-color: #48525E;
+		border-radius: $color-radius;
+		display: $color-display;
+		margin-right: 6%;
+	}
+	.palette2 {
+		height: $color-size;
+		width: $color-size;
+		background-color: #2B6491;
+		border-radius: $color-radius;
+		display: $color-display;
+		margin-right: 6%;
+	}
+	.palette3 {
+		height: $color-size;
+		width: $color-size;
+		background-color: #06B7C7;
+		border-radius: $color-radius;
+		display: $color-display;
+		margin-right: 6%;
+	}
+	.palette4 {
+		height: $color-size;
+		width: $color-size;
+		background-color: #F8373A;
+		border-radius: $color-radius;
+		display: $color-display;
+		margin-right: 6%;
+	}
+	.palette5 {
+		height: $color-size;
+		width: $color-size;
+		background-color: #F2C301;
+		border-radius: $color-radius;
+		display: $color-display;
+	}
+}

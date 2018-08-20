@@ -1,5 +1,8 @@
 /* Wei-Ting Lin - weiting.dev@gmail.com */
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url("https://fonts.googleapis.com/css?family=Berkshire+Swash");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 body, html {
   font: 100% "Quicksand", sans-serif;
   color: #563A34;
@@ -10,23 +13,17 @@ body, html {
 nav {
   background-color: #F2F3F4;
   opacity: 0.90; }
+  nav a.active {
+    background-color: rgba(0, 0, 0, 0.1); }
 
 a {
-  color: #659EB4; }
+  color: #2899C0; }
   a:visited {
-    color: #659EB4; }
+    color: #2899C0; }
   a:hover {
     color: #2C333C; }
   a:active {
-    color: #659EB4; }
-
-.hero {
-  background-image: url("../img/fairy-tale-1180922.png");
-  min-height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+    color: #2899C0; }
 
 .fa {
   color: #FFAEC9; }
@@ -41,16 +38,90 @@ a {
   text-decoration: none;
   padding: 0.5em 0.25em; }
 
+.hero {
+  background-image: url("../img/fairy-tale-1180922.png");
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .copyright {
   font-size: 0.75em; }
 
+.btn {
+  color: #659EB4;
+  background-color: #fff; }
+
 #topBtn {
   display: none;
+  background-color: #2899C0;
   color: #fff;
   position: fixed;
   bottom: 0;
   right: 15px;
   border: none;
   border-radius: 10px 10px 0 0; }
+
+mark {
+  display: inline-block;
+  line-height: 0em;
+  padding-bottom: 0.5em; }
+
+div#cozyhero {
+  background-image: url("../projects/cozy/img/hero.jpg");
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+section#project-wireframing .card .card-image img {
+  width: auto; }
+
+section#project-design .berkshire {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 1.5em; }
+section#project-design .lato {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.35em; }
+section#project-design .roboto {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.25em; }
+section#project-design .palette1 {
+  height: 50px;
+  width: 50px;
+  background-color: #48525E;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6%; }
+section#project-design .palette2 {
+  height: 50px;
+  width: 50px;
+  background-color: #2B6491;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6%; }
+section#project-design .palette3 {
+  height: 50px;
+  width: 50px;
+  background-color: #06B7C7;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6%; }
+section#project-design .palette4 {
+  height: 50px;
+  width: 50px;
+  background-color: #F8373A;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6%; }
+section#project-design .palette5 {
+  height: 50px;
+  width: 50px;
+  background-color: #F2C301;
+  border-radius: 50%;
+  display: inline-block; }
 
 /*# sourceMappingURL=styles.css.map */
