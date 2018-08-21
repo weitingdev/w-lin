@@ -1,5 +1,7 @@
 /* Wei-Ting Lin - weiting.dev@gmail.com */
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://fonts.googleapis.com/css?family=Berkshire+Swash");
 @import url("https://fonts.googleapis.com/css?family=Lato");
 @import url("https://fonts.googleapis.com/css?family=Roboto");
@@ -34,12 +36,47 @@ a {
   .fa:active {
     color: #FFAEC9; }
 
+.ml16 {
+  font-family: Roboto Condensed, sans-serif;
+  color: #fff;
+  padding: 40px 0;
+  font-weight: 800;
+  font-size: 4em;
+  letter-spacing: 0.5em;
+  overflow: hidden; }
+
+.header-subtext {
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-weight: 200;
+  font-size: 1.25em;
+  letter-spacing: 0.4em; }
+
+.ml16 .letter {
+  display: inline-block;
+  line-height: 1em; }
+
+.make-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.make-center-bottom {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff; }
+
 .fa {
   text-decoration: none;
   padding: 0.5em 0.25em; }
 
 .hero {
-  background-image: url("../img/fairy-tale-1180922.png");
+  background-image: url("../img/2018_0715.jpg");
   min-height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -51,6 +88,12 @@ a {
 
 .btn {
   color: #659EB4;
+  background-color: #fff; }
+
+.btn:active {
+  background-color: #fff; }
+
+.btn:focus {
   background-color: #fff; }
 
 #topBtn {
@@ -69,15 +112,12 @@ mark {
   padding-bottom: 0.5em; }
 
 div#cozyhero {
-  background-image: url("../projects/cozy/img/hero.jpg");
+  background-image: url("../projects/cozy/img/hero2.jpg");
   min-height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-
-section#project-wireframing .card .card-image img {
-  width: auto; }
 
 section#project-design .berkshire {
   font-family: 'Berkshire Swash', cursive;

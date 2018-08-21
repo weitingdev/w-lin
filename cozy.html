@@ -14,6 +14,7 @@
         <link type="text/css" rel="stylesheet" href="css/styles.css"  media="screen,projection"/>
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
@@ -22,31 +23,43 @@
         <div class="navbar-fixed grey lighten-5">
             <nav class="z-depth-0">
                 <div class="nav-wrapper container">
-                    <a href="#" class="brand-logo black-text">Ting</a>
+                    <a href="index.html" class="brand-logo black-text">Ting</a>
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="#introduction" class="black-text">About</a></li>
-                        <li><a href="#services" class="black-text">Services</a></li>
-                        <li><a href="#portfolio" class="black-text">Portfolio</a></li>
+                        <li><a href="#project-intro" class="black-text">About</a></li>
+                        <li><a href="#project-design" class="black-text">Design</a></li>
+                        <li><a href="#project-screenflow" class="black-text">Screenflow</a></li>
+                        <li><a href="#project-wireframing" class="black-text">Wireframing</a></li>
+                        <li><a href="#project-prototype" class="black-text">Prototype</a></li>
                         <li><a href="#contactme" class="black-text">Contact</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
         <ul class="sidenav" id="mobile-demo">
-            <li><a href="#introduction">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contactme">Contact</a></li>
+            <li><a href="#project-intro" class="black-text">About</a></li>
+            <li><a href="#project-design" class="black-text">Design</a></li>
+            <li><a href="#project-screenflow" class="black-text">Screenflow</a></li>
+            <li><a href="#project-wireframing" class="black-text">Wireframing</a></li>
+            <li><a href="#project-prototype" class="black-text">Prototype</a></li>
+            <li><a href="#contactme" class="black-text">Contact</a></li>
         </ul>
 
-        <div id="cozyhero" class="hide-on-small-only"></div>
+        <div id="cozyhero" class="hide-on-small-only">
+            <span class="make-center center-align">
+                <h1 class="ml16">COZY</h1>
+                <h4 class="header-subtext">Comfort with convenience.</h4>
+            </span>
+            <a href="#project-intro" class="btn-floating pulse make-center-bottom"><i class="material-icons">arrow_downward</i></a>
+        </div>
 
         <!-- Main Content -->
         <main class="container">
             <section id="project-intro" class="section scrollspy center-align">
-                <h1>COZY</h1>
-                <h4>An Interactive HVAC App</h4>
+                <h1 class="hide-on-med-and-up">COZY</h1>
+                <h4 class="hide-on-med-and-up">Comfort with Convenience</h1>
+                <h4 class="hide-on-small-only">An Office Worker's Interactive Solution</h4>
+                <br/>
                 <div class="chip">
                     <img src="projects/cozy/img/weiting-lin-icon.jpg" alt="Contact Person">Wei-Ting Lin
                 </div>
@@ -55,7 +68,7 @@
                 </div>
                 <div class="chip">
                     <img src="projects/cozy/img/quinn-radford-icon.jpg" alt="Contact Person">Quinn Radford
-                </div><br/>
+                </div><br/><br/>
                 <div class="chip">
                     UX/UI Design<i class="close material-icons">close</i>
                 </div>
@@ -70,7 +83,7 @@
                 </div>
                 <div class="chip">
                     PowerPoint<i class="close material-icons">close</i>
-                </div>
+                </div><br/>
                 <p>COZY​ ​​is​ ​a​ ​mobile​ ​app​lication ​for​ ​office​ ​workers​ ​designed​ ​to​ ​eliminate​ ​employee discomfort and​ ​increase​ ​work​ ​productivity​. Employees are able to adjust temperatures, lighting, and humidity levels to fit their needs. Building managers will be able to analyze this data, and the building's HVAC system will also process these data points to anticipate future trends and issues for maximum efficiency.</p>
                 <p>This group project involves building a business model, conducting user interviews and surveys, designing an empathy map, journey map, and site map, and making user flows, user stories, and personas of our users. After brainstorming a design direction, collaboration on <mark><a href="https://marvelapp.com/" target="_blank">Marvel App</a></mark> was done both online and in-person. Multiple stages of wireframing were drafted based on user feedback and group evaluations. To conclude, a final presentation was done to appeal to potential investors.</p><br/>
 
@@ -88,9 +101,9 @@
                 <br/>
                 <span class="berkshire">Berkshire Swash</span> for Screen Titles
                 <br/>
-                <span class="lato">Lato</span> for General Text
+                <span class="lato">Lato</span> for displaying General Text
                 <br/>
-                <span class="roboto">Roboto</span> for Button Text
+                <span class="roboto">Roboto</span> for the Button Text
                 <br/><br/>
                 <span class="palette1 btn tooltipped" data-position="bottom" data-tooltip="#48525E"></span>
                 <span class="palette2 btn tooltipped" data-position="bottom" data-tooltip="#2B6491"></span>
@@ -102,9 +115,18 @@
             <br/>
             <div class="divider"></div>
 
-            <section id="project-wireframing" class="section scrollspy center-align">
+            <section id="project-screenflow" class="section scrollspy center-align">
                 <h2>Screen Flow</h2>
-                <img src="projects/cozy/img/screenflow.png">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card z-depth-0">
+                            <div class="card-image">
+                                    <img src="projects/cozy/img/screenflow.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <br/>
@@ -113,7 +135,7 @@
             <section id="project-wireframing" class="section scrollspy center-align">
                 <h2>Wireframing</h2>
                 <div class="row">
-                    <div class="col s12 m12 l6">
+                    <div class="col s12 m6 l3">
                         <div class="card z-depth-0">
                             <div class="card-image">
                                     <img src="projects/cozy/img/wireframe-v1-1.png">
@@ -121,41 +143,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col s12 m12 l6">
+                    <div class="col s12 m6 l3">
                         <div class="card z-depth-0">
                             <div class="card-image">
-                                <a href="#">
-                                    <img src="projects/cozy/img/wireframe-v2-1.png">
-                                </a>
+                                <img src="projects/cozy/img/wireframe-v1-2.png">
                             </div>
                         </div>
                     </div>
-                </div>
-
-
-                <div class="row">
-                    <div class="col s12 m12 l6">
-                        <div class="card z-depth-0">
-                            <div class="card-image">
-                                    <img src="projects/cozy/img/wireframe-v1-2.png">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m12 l6">
-                        <div class="card z-depth-0">
-                            <div class="card-image">
-                                <a href="#">
-                                    <img src="projects/cozy/img/wireframe-v2-2.png">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="row">
-                    <div class="col s12 m12 l6">
+                    <div class="col s12 m6 l3">
                         <div class="card z-depth-0">
                             <div class="card-image">
                                     <img src="projects/cozy/img/wireframe-v1-3.png">
@@ -163,33 +158,42 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col s12 m12 l6">
+                    <div class="col s12 m6 l3">
                         <div class="card z-depth-0">
                             <div class="card-image">
-                                <a href="#">
-                                    <img src="projects/cozy/img/wireframe-v2-3.png">
-                                </a>
+                                <img src="projects/cozy/img/wireframe-v1-4.png">
                             </div>
                         </div>
                     </div>
                 </div>
 
-
                 <div class="row">
-                    <div class="col s12 m12 l6">
+                    <div class="col s12 m6 l3">
                         <div class="card z-depth-0">
                             <div class="card-image">
-                                    <img src="projects/cozy/img/wireframe-v1-4.png">
+                                    <img src="projects/cozy/img/wireframe-v2-1.png">
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col s12 m12 l6">
+                    <div class="col s12 m6 l3">
                         <div class="card z-depth-0">
                             <div class="card-image">
-                                <a href="#">
-                                    <img src="projects/cozy/img/wireframe-v2-4.png">
-                                </a>
+                                <img src="projects/cozy/img/wireframe-v2-2.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card z-depth-0">
+                            <div class="card-image">
+                                <img src="projects/cozy/img/wireframe-v2-3.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card z-depth-0">
+                            <div class="card-image">
+                                <img src="projects/cozy/img/wireframe-v2-4.png">
                             </div>
                         </div>
                     </div>
@@ -202,7 +206,7 @@
             <section id="project-prototype" class="section scrollspy center-align">
                 <h2>Final Prototyping</h2>
                 <div class="row">
-                    <div class="col s12 m12 l6">
+                    <div class="col s12 m6 l3">
                         <div class="card z-depth-0">
                             <div class="card-image">
                                     <img src="projects/cozy/img/screen-001.png">
@@ -210,20 +214,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col s12 m12 l6">
+                    <div class="col s12 m6 l3">
                         <div class="card z-depth-0">
                             <div class="card-image">
-                                <a href="#">
-                                    <img src="projects/cozy/img/screen-002.png">
-                                </a>
+                                <img src="projects/cozy/img/screen-002.png">
                             </div>
                         </div>
                     </div>
-                </div>
-
-
-                <div class="row">
-                    <div class="col s12 m12 l6">
+                    <div class="col s12 m6 l3">
                         <div class="card z-depth-0">
                             <div class="card-image">
                                     <img src="projects/cozy/img/screen-003.png">
@@ -231,21 +229,22 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col s12 m12 l6">
+                    <div class="col s12 m6 l3">
                         <div class="card z-depth-0">
                             <div class="card-image">
-                                <a href="#">
-                                    <img src="projects/cozy/img/screen-004.png">
-                                </a>
+                                <img src="projects/cozy/img/screen-004.png">
                             </div>
                         </div>
                     </div>
                 </div>
 
-            <br/><br/>
-            <mark><a href="./index.html#portfolio">See more projects</a></mark>
-            <br/><br/><br/>
-            <div class="divider"></div>
+                <br/>
+                <a href="https://marvelapp.com/52861bd/screen/33749629" class="waves-effect waves-light btn" target="_blank">View Live on Marvel App</a>
+                <br/><br/>
+                <mark><a href="./index.html#portfolio">See more projects</a></mark>
+                <br/><br/><br/>
+                <div class="divider"></div>
+            </section>
         </main>
 
         <!-- Footer -->

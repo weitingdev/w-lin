@@ -6,8 +6,6 @@ body, html {
     letter-spacing: 0.10em;
 }
 
-// transform: translate(-51%, -50%);
-
 nav {
 	background-color: #F2F3F4;
 	opacity: 0.90;
@@ -21,13 +19,41 @@ nav {
 
 @include sm-links(#FFAEC9, #FFAEC9, #2C333C, #FFAEC9);
 
+.ml16 {
+	font-family: Roboto Condensed, sans-serif;
+	color: $white;
+	padding: 40px 0;
+	font-weight: 800;
+	font-size: 4em;
+	letter-spacing: 0.5em;
+	overflow: hidden;
+}
+.header-subtext {
+	font-family: Roboto, sans-serif;
+	color: $white;
+	font-weight: 200;
+	font-size: 1.25em;
+	letter-spacing: 0.4em;
+}
+.ml16 .letter {
+	display: inline-block;
+	line-height: 1em;
+}
+.make-center {
+	@include make-center;
+}
+.make-center-bottom {
+	@include make-center-bottom;
+	color: $white;
+}
+
 .fa {
 	text-decoration: none;
     padding: 0.5em 0.25em;
 }
 
 .hero {
-    background-image: url("../img/fairy-tale-1180922.png");
+    background-image: url("../img/2018_0715.jpg");
     min-height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -41,6 +67,12 @@ nav {
 
 .btn {
 	color: #659EB4;
+	background-color: $white;
+}
+.btn:active {
+	background-color: $white;
+}
+.btn:focus {
 	background-color: $white;
 }
 
