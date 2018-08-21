@@ -4,8 +4,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>Wei-Ting Lin - Web Developer</title>
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+        <title>Ting Lin - Web Dev</title>
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"/>
         <!--[if lt IE 9]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
@@ -23,7 +23,7 @@
         <div class="navbar-fixed grey lighten-5">
             <nav class="z-depth-0">
                 <div class="nav-wrapper container">
-                    <a href="#" class="brand-logo black-text">Ting</a>
+                    <a href="index.html" class="brand-logo black-text">Ting</a>
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="#introduction" class="black-text">About</a></li>
@@ -41,30 +41,106 @@
             <li><a href="#contactme">Contact</a></li>
         </ul>
 
-        <div class="hero hide-on-small-only">
+        <div class="hero">
             <span class="make-center center-align">
                 <h1 class="ml16">Hi, I'm Ting</h1>
-                <h4 class="header-subtext">Nice to meet you.</h4>
+                <h4 class="header-subtext">Nice to meet you!</h4>
             </span>
-            <a href="#project-intro" class="btn-floating pulse make-center-bottom"><i class="material-icons">arrow_downward</i></a>
+            <a href="#introduction" class="btn-floating pulse make-center-bottom"><i class="material-icons">arrow_downward</i></a>
         </div>
 
         <!-- Main Content -->
         <main class="container">
             <section id="introduction" class="section scrollspy center-align">
-                <div class="row">
-                    <div class="col s12 m8 l6">
-                        <img src="img/weiting_lin_profile.jpg" alt="Wei-Ting Lin" class="circle responsive-img">
-                    </div>
-                    <div class="col s12 m8 l6">
-                        <span>
-                            <h3>Hi, I'm Ting!</h3>
-                            I'm a Web Developer from Vancouver, BC.
-                            <br/>I like to cook and read on my spare time, <br/>and I enjoy long walks on the beach.
-                            <br/><br/>Sometimes I like to code.
-                            <br/>Often, I just try to enjoy life.
-                            <br/><br/><mark><a href="#">Read more..</a></mark>
-                        </span>
+                <h3 class="hide-on-med-and-up">Hi, I'm Ting!</h3>
+                <h3 class="hide-on-small-only">About Me</h3>
+                <span>I'm a Web Developer from Vancouver, BC.
+                    <br/>I like to cook and blog on my spare time,
+                    <br/>and I enjoy long walks on the beach.
+                    <br/><br/>Sometimes I like to code.
+                    <br/>Often, I just try to enjoy life.
+                    <br/><br/><mark><a class="modal-trigger" href="#modal1">Read more..</a></mark>
+                    <br/><br/>
+                </span>
+
+                <div id="modal1" class="modal modal-full">
+                    <div class="modal-content">
+                        <div class="row">
+                            <div class="col s12 m6 l6">
+                                <img src="img/weiting_lin_profile.jpg" alt="Wei-Ting Lin" class="circle responsive-img profile-photo">
+                                <h4>Wei-Ting Lin</h4>
+                                <br/>
+                                <div class="chip">
+                                    HTML<i class="close material-icons">close</i>
+                                </div>
+                                <div class="chip">
+                                    CSS<i class="close material-icons">close</i>
+                                </div>
+                                <div class="chip">
+                                    SASS<i class="close material-icons">close</i>
+                                </div>
+                                <div class="chip">
+                                    Bootstrap<i class="close material-icons">close</i>
+                                </div>
+                                <div class="chip">
+                                    Materialize<i class="close material-icons">close</i>
+                                </div>
+                                <div class="chip">
+                                    UX/UI Design<i class="close material-icons">close</i>
+                                </div>
+                                <div class="chip">
+                                    Photoshop<i class="close material-icons">close</i>
+                                </div>
+                                <div class="chip">
+                                    JavaScript<i class="close material-icons">close</i>
+                                </div>
+                                <div class="chip">
+                                    jQuery<i class="close material-icons">close</i>
+                                </div>
+                                <div class="chip">
+                                    Angular JS<i class="close material-icons">close</i>
+                                </div>
+                                <div class="chip">
+                                    PHP<i class="close material-icons">close</i>
+                                </div>
+                                <div class="chip">
+                                    SQL<i class="close material-icons">close</i>
+                                </div>
+                                <div class="chip">
+                                    Visio<i class="close material-icons">close</i>
+                                </div>
+                                <div class="chip">
+                                    Access<i class="close material-icons">close</i>
+                                </div>
+                                <div class="chip">
+                                    XML<i class="close material-icons">close</i>
+                                </div>
+                                <div class="chip">
+                                    Git<i class="close material-icons">close</i>
+                                </div>
+                                <div class="chip">
+                                    FTP<i class="close material-icons">close</i>
+                                </div>
+                            </div>
+                            <div class="col s12 m8 l6">
+                                <p>I am a Front-End Web Developer and Food Blogger from Vancouver, BC. I have a Bachelor of Arts in English from <mark><a href="https://www.sfu.ca/" target="_blank">Simon Fraser University</a></mark>, completed a Web Development certificate at <mark><a href="https://www.lighthouselabs.ca/" target="_blank">Lighthouse Labs</a></mark>, and recently finished an Applied Web Development program at <mark><a href="https://www.bcit.ca/" target="_blank">British Columbia</a> </mark><mark><a href="https://www.bcit.ca/" target="_blank">Institute of Technology</a></mark>. On my spare time, I love to go on photo walks, travel to distant lands (real or imaginary), try new foods, watch horror movies, and play mmorpgs.</p>
+                                <span>Some Current & Past Work Experience:</span>
+                                <ul>
+                                    <li>Lead Developer & Graphic Designer for <mark><a href="https://terryfoxawards.ca/" target="_blank">Terry Fox Humanitarian</a> </mark><mark><a href="https://terryfoxawards.ca/" target="_blank">Award Program</a></mark></li>
+                                    <li>Lead Developer & Graphic Designer for <mark><a href="http://genalab.org/" target="_blank">Genomics and Networks</a> </mark><mark><a href="http://genalab.org/" target="_blank">Analysis Lab</a></mark></li>
+                                    <li>Data Entry Clerk (& some social media promotions) for <mark><a href="https://www.checkpointoneapparel.ca/" target="_blank">Checkpoint1 Apparel</a></mark></li>
+                                    <li>Food Blogger & Social Influencer for <mark><a href="http://tryhiddengems.com/" target="_blank">Hidden Gems Vancouver</a></mark></li>
+                                </ul>
+                                <span>
+                                    <a href="https://github.com/weitingdev" target="_blank">GITHUB</a> - 
+                                    <a href="https://www.linkedin.com/in/wlin2/" target="_blank">LINKEDIN</a> - 
+                                    <a href="https://www.instagram.com/pictureworkmemory/" target="_blank">INSTAGRAM</a> - 
+                                    <a href="https://blog.w-lin.com/" target="_blank">BLOG</a>
+                                </span>
+                                <p>If you are interested in working with me, please feel free to <mark><a href="mailto:weiting.dev@gmail.com">contact me</a></mark>!</p><br/>
+                            </div>
+                            <a href="#!" class="modal-close btn-flat">x</a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -77,22 +153,22 @@
                     <div class="col s12 m6 l3">
                         <span class="fa fa-code fa-5x"></span>
                         <h5>Web Development</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Modern, responsive web design for personal and small business websites that is easy to navigate, visually attractive, SEO optimized, and mobile friendly.</p>
                     </div>
                     <div class="col s12 m6 l3">
                         <span class="fa fa-desktop fa-5x"></span>
                         <h5>UX/UI Design</h5>
-                        <p>Integer malesuada blandit pharetra. Donec et faucibus nunc, in semper lectus.</p>
+                        <p>Wireframing, prototyping, testing, and visual development with a high focus on user usability and attractive user interfaces that better communicates your brand to the rest of the world.</p>
                     </div>
                     <div class="col s12 m6 l3">
                         <span class="fa fa-paint-brush fa-5x"></span>
                         <h5>Graphic Design</h5>
-                        <p>Proin vulputate tellus tellus, vel pulvinar massa pretium a.</p>
+                        <p>Let me help bring your project to life with customized logos, web apps, mobile apps, business cards, ads, posters, image editing, and icons.</p>
                     </div>
                     <div class="col s12 m6 l3">
                         <span class="fa fa-wrench fa-5x"></span>
                         <h5>Website Maintenance</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Keep your website content and systems current, safe and secure, and issue-free with on-going support or in an as-needed basis!</p>
                     </div>
                 </div>
             </section>

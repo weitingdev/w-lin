@@ -1,0 +1,20 @@
+section#introduction {
+	.modal-full {
+		z-index: 100;
+		top: 0;
+		min-width: 100%;
+		min-height: 95%;
+		padding: 4% 1% 0% 1%;
+	}
+
+	img.profile-photo {
+		max-width: 40%;
+	}
+
+	.modal-close {
+		position: absolute;
+		top: 15px;
+	    right: 12px;
+	    font-size: 1.75em;
+	}
+}
