@@ -5,6 +5,8 @@
 @import url("https://fonts.googleapis.com/css?family=Berkshire+Swash");
 @import url("https://fonts.googleapis.com/css?family=Lato");
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 body, html {
   font: 100% "Quicksand", sans-serif;
   color: #563A34;
@@ -42,7 +44,7 @@ a {
   padding: 40px 0;
   font-weight: 800;
   font-size: 4em;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.3em;
   overflow: hidden; }
 
 .header-subtext {
@@ -65,7 +67,7 @@ a {
 
 .make-center-bottom {
   position: absolute;
-  top: 90%;
+  top: 95%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -111,6 +113,84 @@ mark {
   line-height: 0em;
   padding-bottom: 0.5em; }
 
+.modal {
+  top: 0 !important;
+  width: 100%;
+  height: 100%;
+  max-height: 100vh; }
+
+img.profile-photo {
+  max-width: 40%; }
+
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 12px;
+  font-size: 1.75em; }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .ml16 {
+    font-family: Roboto Condensed, sans-serif;
+    color: #fff;
+    padding: 20px 0;
+    font-weight: 800;
+    font-size: 2em;
+    letter-spacing: 0.2em;
+    overflow: hidden; }
+
+  .header-subtext {
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    font-weight: 200;
+    font-size: 1em;
+    letter-spacing: 0.4em; } }
+div#charhero {
+  background-image: url("../projects/charandchew/img/hero.jpg");
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+section#charandchew-design .playfair-display {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em; }
+section#charandchew-design .source-sans-pro {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.35em; }
+section#charandchew-design .roboto {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.25em; }
+section#charandchew-design .palette1 {
+  height: 50px;
+  width: 50px;
+  background-color: #000000;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6%; }
+section#charandchew-design .palette2 {
+  height: 50px;
+  width: 50px;
+  background-color: #A5A5A5;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6%; }
+section#charandchew-design .palette3 {
+  height: 50px;
+  width: 50px;
+  background-color: #06B7C7;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6%; }
+section#charandchew-design .palette4 {
+  height: 50px;
+  width: 50px;
+  background-color: #2BAFB9;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6%; }
+
 div#cozyhero {
   background-image: url("../projects/cozy/img/hero2.jpg");
   min-height: 100%;
@@ -119,63 +199,49 @@ div#cozyhero {
   background-repeat: no-repeat;
   background-size: cover; }
 
-section#project-design .berkshire {
+section#cozy-design .berkshire {
   font-family: 'Berkshire Swash', cursive;
   font-size: 1.5em; }
-section#project-design .lato {
+section#cozy-design .lato {
   font-family: 'Lato', sans-serif;
   font-size: 1.35em; }
-section#project-design .roboto {
+section#cozy-design .roboto {
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-size: 1.25em; }
-section#project-design .palette1 {
+section#cozy-design .palette1 {
   height: 50px;
   width: 50px;
   background-color: #48525E;
   border-radius: 50%;
   display: inline-block;
   margin-right: 6%; }
-section#project-design .palette2 {
+section#cozy-design .palette2 {
   height: 50px;
   width: 50px;
   background-color: #2B6491;
   border-radius: 50%;
   display: inline-block;
   margin-right: 6%; }
-section#project-design .palette3 {
+section#cozy-design .palette3 {
   height: 50px;
   width: 50px;
   background-color: #06B7C7;
   border-radius: 50%;
   display: inline-block;
   margin-right: 6%; }
-section#project-design .palette4 {
+section#cozy-design .palette4 {
   height: 50px;
   width: 50px;
   background-color: #F8373A;
   border-radius: 50%;
   display: inline-block;
   margin-right: 6%; }
-section#project-design .palette5 {
+section#cozy-design .palette5 {
   height: 50px;
   width: 50px;
   background-color: #F2C301;
   border-radius: 50%;
   display: inline-block; }
-
-section#introduction .modal-full {
-  z-index: 100;
-  top: 0;
-  min-width: 100%;
-  min-height: 95%;
-  padding: 4% 1% 0% 1%; }
-section#introduction img.profile-photo {
-  max-width: 40%; }
-section#introduction .modal-close {
-  position: absolute;
-  top: 15px;
-  right: 12px;
-  font-size: 1.75em; }
 
 /*# sourceMappingURL=styles.css.map */

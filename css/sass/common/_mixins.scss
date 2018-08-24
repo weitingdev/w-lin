@@ -1,15 +1,26 @@
 @mixin tablet {
-	@media (min-width: #{$tablet-width}) and (max-width: #{desktop-width - 1px}) {
-		.hero {
-	        background-attachment: scroll;
-	        background-position: left;
-	        min-height: 50vh;
-    	}
+	@media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    	.ml16 {
+			font-family: Roboto Condensed, sans-serif;
+			color: $white;
+			padding: 20px 0;
+			font-weight: 800;
+			font-size: 2em;
+			letter-spacing: 0.2em;
+			overflow: hidden;
+		}
+		.header-subtext {
+			font-family: Roboto, sans-serif;
+			color: $white;
+			font-weight: 200;
+			font-size: 1em;
+			letter-spacing: 0.4em;
+		}
 	}
 }
 
 @mixin desktop {
-	@media (min-width: #{desktop-width}) {
+	@media (min-width: #{$desktop-width}) {
 		@content;
 	}
 }
@@ -53,7 +64,7 @@
 
 @mixin make-center-bottom {
 	position: absolute;
-	top: 90%;
+	top: 95%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }

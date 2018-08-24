@@ -1,5 +1,5 @@
-div#cozyhero {
-    background-image: url("../projects/cozy/img/hero2.jpg");
+div#charhero {
+    background-image: url("../projects/charandchew/img/hero.jpg");
     min-height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -7,13 +7,13 @@ div#cozyhero {
     background-size: cover;
 }
 
-section#cozy-design {
-	.berkshire {
-		font-family: 'Berkshire Swash', cursive;
+section#charandchew-design {
+	.playfair-display {
+		font-family: 'Playfair Display', serif;
 		font-size: 1.5em;
 	}
-	.lato {
-		font-family: 'Lato', sans-serif;
+	.source-sans-pro {
+		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 1.35em;
 	}
 	.roboto {
@@ -24,7 +24,7 @@ section#cozy-design {
 	.palette1 {
 		height: $color-size;
 		width: $color-size;
-		background-color: #48525E;
+		background-color: #000000;
 		border-radius: $color-radius;
 		display: $color-display;
 		margin-right: 6%;
@@ -32,7 +32,7 @@ section#cozy-design {
 	.palette2 {
 		height: $color-size;
 		width: $color-size;
-		background-color: #2B6491;
+		background-color: #A5A5A5;
 		border-radius: $color-radius;
 		display: $color-display;
 		margin-right: 6%;
@@ -48,16 +48,9 @@ section#cozy-design {
 	.palette4 {
 		height: $color-size;
 		width: $color-size;
-		background-color: #F8373A;
+		background-color: #2BAFB9;
 		border-radius: $color-radius;
 		display: $color-display;
 		margin-right: 6%;
-	}
-	.palette5 {
-		height: $color-size;
-		width: $color-size;
-		background-color: #F2C301;
-		border-radius: $color-radius;
-		display: $color-display;
 	}
 }
