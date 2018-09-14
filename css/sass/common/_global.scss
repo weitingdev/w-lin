@@ -16,7 +16,6 @@ nav {
 }
 
 @include links(#2899C0, #2899C0, #2C333C, #2899C0);
-
 @include sm-links(#FFAEC9, #FFAEC9, #2C333C, #FFAEC9);
 
 .ml16 {
@@ -57,7 +56,7 @@ nav {
 }
 
 .hero {
-    background-image: url("../img/2018_0715.jpg");
+    background-image: url("../img/main-hero.png");
     min-height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -65,8 +64,16 @@ nav {
     background-size: cover;
 }
 
-.copyright {
-	font-size: 0.75em;
+.parallax-container {
+	height: 400px;
+}
+
+section {
+	margin: 50px 0;
+}
+
+.extra-padding {
+	margin: 50px 0;
 }
 
 .btn {
@@ -104,15 +111,28 @@ mark {
 	max-height: 100vh;
 }
 
-img.profile-photo {
-	max-width: 40%;
-}
-
 .modal-close {
 	position: absolute;
 	top: 15px;
     right: 12px;
     font-size: 1.75em;
+}
+
+.copyright {
+	font-size: 0.75em;
+}
+
+.page-footer {
+	color: #E8E8E8;
+	background-color: #1F4D64;
+}
+
+img.profile-photo {
+	max-width: 40%;
+}
+
+#portfolio {
+	margin-bottom: 100px;
 }
 
 @include tablet;

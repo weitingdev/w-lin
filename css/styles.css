@@ -79,15 +79,21 @@ a {
   padding: 0.5em 0.25em; }
 
 .hero {
-  background-image: url("../img/2018_0715.jpg");
+  background-image: url("../img/main-hero.png");
   min-height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
-.copyright {
-  font-size: 0.75em; }
+.parallax-container {
+  height: 400px; }
+
+section {
+  margin: 50px 0; }
+
+.extra-padding {
+  margin: 50px 0; }
 
 .btn {
   color: #659EB4;
@@ -120,14 +126,24 @@ mark {
   height: 100%;
   max-height: 100vh; }
 
-img.profile-photo {
-  max-width: 40%; }
-
 .modal-close {
   position: absolute;
   top: 15px;
   right: 12px;
   font-size: 1.75em; }
+
+.copyright {
+  font-size: 0.75em; }
+
+.page-footer {
+  color: #E8E8E8;
+  background-color: #1F4D64; }
+
+img.profile-photo {
+  max-width: 40%; }
+
+#portfolio {
+  margin-bottom: 100px; }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .ml16 {
@@ -144,7 +160,10 @@ img.profile-photo {
     color: #fff;
     font-weight: 200;
     font-size: 1em;
-    letter-spacing: 0.4em; } }
+    letter-spacing: 0.4em; }
+
+  .parallax-container {
+    height: 175px; } }
 div#charhero {
   background-image: url("../projects/charandchew/img/hero.jpg");
   min-height: 100%;
