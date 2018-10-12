@@ -1,0 +1,51 @@
+div#sugarhero {
+    background-image: url("../projects/tspofsugar/img/hero.jpg");
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#sugar-design {
+	.lato {
+		font-family: 'Lato', sans-serif;
+		font-size: 1.5em;
+	}
+	.roboto {
+		font-family: 'Raleway', serif;
+		font-size: 1.35em;
+	}
+	.palette1 {
+		height: $color-size;
+		width: $color-size;
+		background-color: #563A34;
+		border-radius: $color-radius;
+		display: $color-display;
+		margin-right: 6%;
+	}
+	.palette2 {
+		height: $color-size;
+		width: $color-size;
+		background-color: #D51E2C;
+		border-radius: $color-radius;
+		display: $color-display;
+		margin-right: 6%;
+	}
+	.palette3 {
+		height: $color-size;
+		width: $color-size;
+		background-color: #FFAEC9;
+		border-radius: $color-radius;
+		display: $color-display;
+		margin-right: 6%;
+	}
+	.palette4 {
+		height: $color-size;
+		width: $color-size;
+		background-color: #659EB4;
+		border-radius: $color-radius;
+		display: $color-display;
+		margin-right: 6%;
+	}
+}

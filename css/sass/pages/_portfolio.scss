@@ -1,0 +1,67 @@
+div#portfoliohero {
+    background-image: url("../projects/portfolio/img/hero.png");
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#portfolio-design {
+	.lato {
+		font-family: 'Roboto', sans-serif;
+		font-size: 1.5em;
+	}
+	.roboto {
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 1.35em;
+	}
+	.palette1 {
+		height: $color-size;
+		width: $color-size;
+		background-color: #2C333C;
+		border-radius: $color-radius;
+		display: $color-display;
+		margin-right: 6%;
+	}
+	.palette2 {
+		height: $color-size;
+		width: $color-size;
+		background-color: #563A34;
+		border-radius: $color-radius;
+		display: $color-display;
+		margin-right: 6%;
+	}
+	.palette3 {
+		height: $color-size;
+		width: $color-size;
+		background-color: #E4E4E4;
+		border-radius: $color-radius;
+		display: $color-display;
+		margin-right: 6%;
+	}
+	.palette4 {
+		height: $color-size;
+		width: $color-size;
+		background-color: #2899C0;
+		border-radius: $color-radius;
+		display: $color-display;
+		margin-right: 6%;
+	}
+	.palette5 {
+		height: $color-size;
+		width: $color-size;
+		background-color: #FFAEC9;
+		border-radius: $color-radius;
+		display: $color-display;
+		margin-right: 6%;
+	}
+	.palette6 {
+		height: $color-size;
+		width: $color-size;
+		background-color: #FFFF00;
+		border-radius: $color-radius;
+		display: $color-display;
+		margin-right: 6%;
+	}
+}
