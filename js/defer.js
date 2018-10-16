@@ -1,6 +1,5 @@
 // import anime from 'animejs'
 
-
 $(document).ready(function() {
 
     $('.sidenav').sidenav();
@@ -46,5 +45,7 @@ $(document).ready(function() {
           return 30 * i;
         }
     })
+
+    AOS.init();
 
 });
