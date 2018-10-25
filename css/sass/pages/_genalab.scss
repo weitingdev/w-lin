@@ -1,10 +1,5 @@
 div#genalabhero {
     background-image: url("../projects/genalab/img/hero.jpg");
-    min-height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 section#genalab-design {
@@ -16,35 +11,15 @@ section#genalab-design {
 		font-family: 'Verdana', sans-serif;
 	}
 	.palette1 {
-		height: $color-size;
-		width: $color-size;
 		background-color: #000000;
-		border-radius: $color-radius;
-		display: $color-display;
-		margin-right: 6%;
 	}
 	.palette2 {
-		height: $color-size;
-		width: $color-size;
 		background-color: #666666;
-		border-radius: $color-radius;
-		display: $color-display;
-		margin-right: 6%;
 	}
 	.palette3 {
-		height: $color-size;
-		width: $color-size;
 		background-color: #E3F3FF;
-		border-radius: $color-radius;
-		display: $color-display;
-		margin-right: 6%;
 	}
 	.palette4 {
-		height: $color-size;
-		width: $color-size;
 		background-color: #3333FF;
-		border-radius: $color-radius;
-		display: $color-display;
-		margin-right: 6%;
 	}
 }

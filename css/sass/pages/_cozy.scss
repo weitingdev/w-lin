@@ -1,10 +1,5 @@
 div#cozyhero {
     background-image: url("../projects/cozy/img/hero2.jpg");
-    min-height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 section#cozy-design {
@@ -22,42 +17,18 @@ section#cozy-design {
 		font-size: 1.25em;
 	}
 	.palette1 {
-		height: $color-size;
-		width: $color-size;
 		background-color: #48525E;
-		border-radius: $color-radius;
-		display: $color-display;
-		margin-right: 6%;
 	}
 	.palette2 {
-		height: $color-size;
-		width: $color-size;
 		background-color: #2B6491;
-		border-radius: $color-radius;
-		display: $color-display;
-		margin-right: 6%;
 	}
 	.palette3 {
-		height: $color-size;
-		width: $color-size;
 		background-color: #06B7C7;
-		border-radius: $color-radius;
-		display: $color-display;
-		margin-right: 6%;
 	}
 	.palette4 {
-		height: $color-size;
-		width: $color-size;
 		background-color: #F8373A;
-		border-radius: $color-radius;
-		display: $color-display;
-		margin-right: 6%;
 	}
 	.palette5 {
-		height: $color-size;
-		width: $color-size;
 		background-color: #F2C301;
-		border-radius: $color-radius;
-		display: $color-display;
 	}
 }

@@ -1,10 +1,5 @@
 div#charhero {
     background-image: url("../projects/charandchew/img/hero.jpg");
-    min-height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 section#charandchew-design {
@@ -22,35 +17,15 @@ section#charandchew-design {
 		font-size: 1.25em;
 	}
 	.palette1 {
-		height: $color-size;
-		width: $color-size;
 		background-color: #000000;
-		border-radius: $color-radius;
-		display: $color-display;
-		margin-right: 6%;
 	}
 	.palette2 {
-		height: $color-size;
-		width: $color-size;
 		background-color: #A5A5A5;
-		border-radius: $color-radius;
-		display: $color-display;
-		margin-right: 6%;
 	}
 	.palette3 {
-		height: $color-size;
-		width: $color-size;
 		background-color: #06B7C7;
-		border-radius: $color-radius;
-		display: $color-display;
-		margin-right: 6%;
 	}
 	.palette4 {
-		height: $color-size;
-		width: $color-size;
 		background-color: #2BAFB9;
-		border-radius: $color-radius;
-		display: $color-display;
-		margin-right: 6%;
 	}
 }

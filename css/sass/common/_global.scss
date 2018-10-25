@@ -41,6 +41,18 @@ nav {
 	line-height: 1em;
 }
 
+.top-left {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 0px;
+    right: 200px;
+}
+
 .make-center {
 	@include make-center;
 }
@@ -55,9 +67,12 @@ nav {
     padding: 0.5em 0.25em;
 }
 
+.index-hero {
+    background-image: url("../img/main-hero.jpg");
+}
+
 .hero {
-    background-image: url("../img/main-hero.png");
-    min-height: 100%;
+	min-height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -133,4 +148,21 @@ img.profile-photo {
 
 #portfolio {
 	margin-bottom: 100px;
+}
+
+.arrow-link {
+	color: #fff;
+}
+
+.palette1, 
+.palette2, 
+.palette3, 
+.palette4, 
+.palette5, 
+.palette6 {
+	height: $color-size;
+	width: $color-size;
+	border-radius: $color-radius;
+	display: $color-display;
+	margin-right: 6%;
 }
