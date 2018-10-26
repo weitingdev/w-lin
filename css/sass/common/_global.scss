@@ -72,11 +72,12 @@ nav {
 }
 
 .hero {
-	min-height: 100%;
+	min-height: 95%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    // background-size: contain;
 }
 
 .parallax-container {
